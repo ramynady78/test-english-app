@@ -1,0 +1,139 @@
+.result{
+    background-color: #f0f8ff   ;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.result .container{
+
+}
+.result .container .result-card{
+    height: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex !important;
+    justify-content: space-between;
+    font-family: "Roboto", serif;
+    color: #333333;
+
+}
+.result .container .result-card .head-massege{
+    width: 100%;
+    height: 50px;
+    background-color: #e8f5e9;
+    align-content: center;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    border-radius: 10px;
+
+}
+.result .container .result-card .head-massege p{
+    margin: 0;
+}
+.result .container .result-card .show-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.result .container .result-card .show-result p {
+    border-bottom: 2px solid #ddd;
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px 10px 5px;
+    font-size: large;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.result .container .result-card .show-result .percentage-result{
+
+}
+.result .container .result-card .show-result .reading-result{
+
+}
+.result .container .result-card .show-result .listening-result{
+
+}
+.result .container .result-card .message{
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.result .container .result-card .message::before {
+    content: "“";
+    position: absolute;
+    top: -21px;
+    left: 8px;
+    font-size: 60px;
+    font-weight: 500;
+    color: #ff6b6b; 
+}
+
+.result .container .result-card .message::after {
+    content: "”";
+    position: absolute;
+    bottom: -15px;
+    right: 7px;
+    font-size: 60px;
+    font-weight: 500;
+    color: #48cae4; 
+}
+
+.result .container .result-card .message p{
+    margin: 0;
+}
+
+
+.result .container .result-card .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.result .container .result-card .buttons * {
+    width: 150px;
+    margin: 0;
+    padding: 8px;
+    color: #000;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.result .container .result-card .buttons .show-result-btn {
+    background: linear-gradient(135deg, #48cae4, #00b4d8); 
+    box-shadow: 0 4px 8px rgba(72, 202, 228, 0.2);
+}
+
+.result .container .result-card .buttons .finsh-btn {
+    background: linear-gradient(135deg, #e92f2f, #ff8787); 
+    box-shadow: 0 4px 8px rgba(255, 107, 107, 0.2);
+}
+
+.result .container .result-card .buttons .show-result-btn:hover {
+    transform: translate(10px, -5px); 
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #0077b6, #0096c7); 
+    color: #fff;
+}
+
+.result .container .result-card .buttons .finsh-btn:hover {
+    transform: translate(-10px, -5px); 
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #d00000, #ff4d4d); 
+    color: #fff;
+}
+

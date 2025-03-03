@@ -1,0 +1,191 @@
+.details-page{
+    padding-top: 80px;
+}
+.details-page .details-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    padding-top: 10px;
+    background: linear-gradient(to bottom, #4CAF50, #81C784, #A5D6A7, #ffffff);
+    width: 100%;
+}
+.details-page .details-container .short-explation{
+    height: 130px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+}
+.details-page .details-container .card-details{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.details-page .details-container .left-section{
+    width: 30%;
+    border-right:2px solid #eee ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    padding-right:15px;
+    align-items: center;
+    justify-content: center;
+}
+.details-page .details-container .left-section .exam-time{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 10px;
+}
+.details-page .details-container .left-section .exam-datials{
+    margin: 0;
+}
+.details-page .details-container .left-section .exam-datials p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.details-page .details-container .right-section{
+    width: 70%;
+    padding: 15px 10px;
+}
+.details-page .details-container .right-section .exam-info{
+  
+}
+.details-page .details-container .right-section .exam-info .exam-description{
+    font-weight: 500;
+    margin-left: 2px;
+}
+.details-page .details-container .right-section .exam-info ul{
+    font-size: 17px;
+}
+
+@media (max-width:768px){
+    .details-page .details-container .card-details{
+        flex-direction: column;
+        width: 90%;
+        padding: 0;
+    }
+    .details-page .details-container .left-section{
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid #eee;
+    }
+    .details-page .details-container .right-section{
+        width: 100%;
+    }
+}
+.details-page .details-container .right-section .take-test{
+    margin-left: 30%;
+    color: #fff;
+}
+
+.details-page .exam-info-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #ffffff;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.details-page .exam-info-section .exam-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.details-page .exam-info-section p {
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+}
+
+.details-page .exam-info-section .info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.details-page .exam-info-section .info-cards .card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    transition: transform 0.3s linear;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details-page .exam-info-section .info-cards .card:hover{
+    transform: translateY(-10px);
+}
+
+.details-page .exam-info-section .info-cards .card h3 {
+  color: black;
+}
+
+.details-page .exam-info-section .info-cards .card p {
+  color: black;
+}
+
+/* not have free time  */
+hr{
+    width: 50%;
+    margin: 0 auto;
+}
+.recommand{
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 60px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+@media (max-width:768px){
+    .recommand{
+        width: 80%;
+    }
+}
+.recommand h3{
+    font-size: 30px;
+    margin: 5px 0;
+}
+.recommand p{
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+.recommand .go-to-quick-test{
+    border: 2px solid #9dd29f;
+    margin: 20px 0 10px 0;
+    box-shadow: 0 4px 6px rgba(157, 210, 159, 0.8);
+    border-radius: 20px;
+    font-weight: 600;
+    width: 150px;
+    transition: all .5s linear;
+}
+.recommand .go-to-quick-test:hover{
+    transform: translate(10px,-5px);
+}
+.recommand .go-to-quick-test:active{
+    border: #4CAF50;
+}

@@ -1,0 +1,120 @@
+.exame-page{
+    width: 30rem;
+}
+.exame-page .exam-page-head{
+    font-size: 18px;
+    font-weight: 500;
+    color: #2C3E50;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.exame-page .exam-page-head p{
+    margin: 0;
+}
+.exame-page .exam-page-head .notice-message{
+    margin-bottom: 8px;
+}
+.exame-page .exam-page-head .guidance{
+
+}
+.exame-page .card{
+    padding: 10px;
+    width: 30rem;
+    margin: 0 auto;
+}
+@media (max-width:768px) {
+    .exame-page .card {
+        width: 25rem;        
+    }
+}
+.exame-page .card .qusetion{
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+.exame-page .card .qusetion.reading{
+    height: 12vh;
+}
+.exame-page .card .qusetion.listining audio{
+    width: 100%;
+
+}
+.exame-page .card .qusetion.listining p{
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.exame-page .card .answers{
+    margin-top: 10px;
+    padding: 0 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.exame-page .card .answers .input-group{
+    margin: 10px 0;
+}
+.exame-page .card .answers .input-group .input-group-text .form-check-input{
+    cursor: pointer;
+}
+.exame-page .card .answers .input-group  .form-control{
+    cursor: pointer;
+}
+
+.exame-page .card .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 10px;
+
+}
+.exame-page .card .buttons button{
+    width: 100px;
+    margin: 0 !important;
+    transition: all .3s linear;
+}
+.exame-page .card .buttons .prev-btn{
+    background-color: #fd4040;
+    color: #ffff;
+    border: none;
+    transition: all .3s linear;
+
+}
+.exame-page .card .buttons .prev-btn:hover{
+    background-color: #FF6B6B;
+    transform: translate(-10px, -5px); 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); 
+
+}
+.exame-page .card .buttons .next-btn{
+    background-color: #3a8c3e;
+    color: #ffff;
+    border: none;
+}
+.exame-page .card .buttons .next-btn:hover {
+    background-color: #4CAF50;
+    transform: translate(10px, -5px); 
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.2); 
+}
+
+/* timer  */
+
+.countdown-timer{
+    position: absolute;
+  top: -30px;
+  right: 20px;
+  background-color: #FFFFFF;
+  color: #333333;
+  padding: 5px 10px;
+  border: 2px solid #2C3E50;
+  border-radius: 5px;
+}
+.countdown-timer .timer{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}

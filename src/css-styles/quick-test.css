@@ -1,0 +1,88 @@
+.quick-test{
+    background: #F5F5F5;
+    height: 100vh;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+.quick-test .nav-bar{
+    height: 50px;
+    width: 100%;
+    color: #2C3E50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;  
+    border-bottom:4px solid  #2C3E50;  
+}
+.quick-test .quick-test-container{
+    height: 93.2vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 60px;
+
+}
+.quick-test .quick-test-container > .card{
+    width: 30rem;
+    border:2px solid #2C3E50;
+}
+@media (max-width: 768px) {
+    .quick-test .quick-test-container > .card {
+        width: 25rem;
+    }
+}
+
+
+.quick-test .quick-test-container .card .crad-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.quick-test .quick-test-container .card .crad-head .section-name{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.quick-test .quick-test-container .card .crad-head .notice-section{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.quick-test .quick-test-container .card .sction-image{
+    width: 100%;
+    height: 170px;
+}
+.quick-test .quick-test-container .card .sction-image img{
+    width: 100%;
+    height: 100%;
+}
+.quick-test .quick-test-container .card .section-description{
+    padding: 10px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quick-test .quick-test-container .card .section-description ul{}
+.quick-test .quick-test-container .card .section-description ul li{
+    margin: 10px 0;
+}
+.quick-test .quick-test-container .card .btn{
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: block;
+}
+
+
+
+.cancel-btn {
+    background-color: #ff4d4d !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.6) !important;
+}
