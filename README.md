@@ -42,7 +42,4 @@ This project was built with passion to help users improve their English skills t
 
 Feel free to test your English level and stay tuned for future updates!
 
----
-
-Let me know if you want any adjustments or extra sections for the README! 🚀
 
