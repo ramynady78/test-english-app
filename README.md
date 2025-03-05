@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# English Test App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Demo:** [English Test App](https://tes-english-app.vercel.app/)
 
-## Available Scripts
+## 📚 Project Overview
+This project is an English test application designed to help users assess their language skills through a variety of tests with different difficulty levels and time durations.
 
-In the project directory, you can run:
+## 🧠 Features
+- **Quick Test:**
+  - Duration: 15 minutes
+  - 10 Reading questions
+  - 10 Listening questions
 
-### `npm start`
+- **Standard Test:**
+  - Duration: 50 minutes
+  - 30 Reading questions
+  - 30 Listening questions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Advanced Test (Coming Soon):**
+  - Duration: 90 minutes
+  - 50 Reading questions
+  - 50 Listening questions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Test Details Page:** View detailed information about each test.
+- **About Us Page:** Learn more about the purpose and creators of the app.
 
-### `npm test`
+## 🚀 How to Access
+You can explore the app through this link: [tes-english-app.vercel.app](https://tes-english-app.vercel.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
+- **Frontend:** React, Redux
+- **UI Styling:** CSS, Bootstrap
+- **Deployment:** Vercel
 
-### `npm run build`
+## 📈 Future Updates
+- Launch the **Advanced Test** with 50 questions for reading and listening.
+- Add user progress tracking and results history.
+- Implement a vocabulary section for additional practice.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👥 About the Developer
+This project was built with passion to help users improve their English skills through interactive and well-structured tests.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to test your English level and stay tuned for future updates!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+Let me know if you want any adjustments or extra sections for the README! 🚀
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
