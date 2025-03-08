@@ -1,3 +1,10 @@
 .about-container{
     padding-top: 100px !important;
 }
+.about-container .our-tests-btn{
+    transition: all .4s linear;
+}
+.about-container .our-tests-btn:hover{
+    transform: translate(5px, 15px); 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); 
+}

@@ -79,7 +79,7 @@ function AboutUs() {
           <div className="col-md-8">
             <h2 className="mb-3">Ready to demonstrate your English proficiency?</h2>
             <p className="lead mb-4">Join millions of test-takers who have advanced their careers and education through our globally recognized assessments.</p>
-            <Link className="btn btn-warning btn-lg px-4" to={"/"}>Our Tests</Link>
+            <Link className="btn btn-warning our-tests-btn btn-lg px-4" to={"/"}>Our Tests</Link>
           </div>
           <div className="col-md-4 text-center">
             <i className="fas fa-graduation-cap fa-5x"></i>
